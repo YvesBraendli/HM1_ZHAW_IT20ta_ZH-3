@@ -14,7 +14,7 @@ import numpy as np
 # stärker und sorgt dafür, dass sich in einer kürzeren Zeit mehr Kinder anstecken.
 # Ab einer Infektionsrate von ca. 2.5 werden die Werte wahllos und wir haben somit
 # einen abstossenden Nullpunkt.
-n=100
+n=10
 a=np.arange(0.1,4,0.1)
 for ak in a:
     ki=0.1
