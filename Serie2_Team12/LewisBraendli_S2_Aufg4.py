@@ -18,8 +18,9 @@ print(epsDez)
 
 #QMax
 
-qmax = 1.1
-while qmax+1.0 != qmax:
+qmax = 1.0
+while qmax+1.0 > qmax:
     qmax *=2
+qmax/=2
 print(qmax)
 #qMax lässt sich nicht direkt aus epsBi berechnen.
